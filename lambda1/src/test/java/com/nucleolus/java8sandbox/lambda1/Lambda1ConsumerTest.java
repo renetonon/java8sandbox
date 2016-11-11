@@ -5,21 +5,19 @@
  */
 package com.nucleolus.java8sandbox.lambda1;
 
-import com.nucleolus.java8sandbox.lambda1.Lambda1;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import static org.junit.Assert.*;
 
 /**
  *
  * @author rene
  */
-public class Lambda1Test {
+public class Lambda1ConsumerTest {
 
-    public Lambda1Test() {
+    public Lambda1ConsumerTest() {
     }
 
     @BeforeClass
@@ -39,11 +37,11 @@ public class Lambda1Test {
     }
 
     /**
-     * Test of main method, of class Lambda1.
+     * Test of main method, of class Lambda1Consumer.
      */
     @Test
     public void testMain() {       
-        Lambda1.main(null);
+        Lambda1Consumer.main(null);
     }
 
 }
